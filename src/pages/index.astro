@@ -1,16 +1,23 @@
 ---
-
+import MainLayout from "../layouts/MainLayout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<MainLayout title="Home">
+  <main>
+    <h1>Hi, I'm <mark>Shavix</mark></h1>
+    <p>
+      I'm a beginner student in Poland who's passionate about technology and
+      games, especially discord.js and osu!
+    </p>
+    <div class="contact">
+      <p>My contacts:</p>
+      <iframe
+        title="Discord user embed"
+        width="340"
+        height="192"
+        frameborder="0"
+        sandbox="allow-scripts"
+        src="https://widgets.vendicated.dev/user?id=647404005168906240&theme=dark&banner=true&full-banner=true&rounded-corners=true&discord-icon=true&badges=true&guess-nitro=true&"
+      ></iframe>
+  </main>
+</MainLayout>
