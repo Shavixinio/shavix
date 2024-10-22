@@ -1,5 +1,5 @@
-/* Reset default margin and padding */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -22,7 +22,7 @@ mark {
 
 nav {
   width: 100%;
-  background-color: #1a1a1a; /* Optional: Add a background color */
+  background-color: #1a1a1a;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -32,7 +32,7 @@ nav {
 nav a {
   float: left;
   display: block;
-  color: white; /* Optional: Change text color */
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -51,15 +51,14 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /* border-style: solid; */
   margin: 0 auto;
-  width: calc(100% - 20px); /* Adjust width to account for padding */
-  height: 90vh; /* Adjust height as needed */
+  width: calc(100% - 20px);
+  height: 90vh;
   max-width: 800px;
 }
 
 main p {
-  margin-top: 5px; /* Adjust this value to reduce the space between paragraphs */
+  margin-top: 5px;
 }
 
 p {
@@ -75,14 +74,26 @@ p {
 }
 
 #Github {
-  display: inline-block; /* or inline */
-  background-color: #333; /* Example background color */
-  color: white; /* Example text color */
-  padding: 5px; /* Optional: Add some padding */
-  border-radius: 25px; /* Optional: Add rounded corners */
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 5px;
+  border-radius: 25px;
 }
 
 #stuff {
   display: flex;
   flex-direction: row;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(66, 66, 66);
+  height: 10vh;
+}
+
+footer > a {
+  color: rgb(66, 66, 66);
 }
