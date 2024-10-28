@@ -92,6 +92,7 @@ footer {
   align-items: center;
   color: rgb(66, 66, 66);
   height: 10vh;
+  margin-top: auto;
 }
 
 footer > a {
